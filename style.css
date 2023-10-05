@@ -1,0 +1,203 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Robot;
+    src: url(newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Bold.ttf);
+  }
+ body{
+    font-family: Robot;
+    
+     background-color: hsl(234, 29%, 20%)}
+     .card{
+        background-color: hsl(0, 0%, 100%);
+        width:60%;
+        height: 507px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 99px;
+        margin-bottom: 5px;
+        display: flex;
+        border-radius: 20px;
+     }
+     h1{
+        font-size: 40px;
+        color: hsl(235, 18%, 26%);
+     }
+p{
+    font-size: 16px;
+    padding: 2rem;
+    color: hsl(235, 18%, 26%);
+}
+.left-side{
+    margin: 60px;
+   
+
+}
+.icon-WithPra{
+    position: relative;
+    top: -2rem;
+
+}
+.imgone,.imgtwo,.imgthree {
+    width: 27px;
+    position: absolute;
+    left: -3px;
+}
+.imgone{
+    top: 4rem;
+}
+.imgtwo{    top: 111px;}
+.imgthree{        top: 154px;}
+.right-side{
+    margin: 1rem;
+}
+.form{
+    margin-top: -8rem;
+}
+
+.btn{
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    padding: 11px;
+    width: 19.5rem;
+    border: 1px solid hsl(235, 18%, 26%) ;
+}
+.btn:hover{
+
+    background: linear-gradient(to right, #ff512f, hsl(4, 94%, 58%));
+    transition: 1.5s;
+    cursor: pointer;
+
+}
+.btntwo{
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    padding: 11px;
+    width: 19.5rem;
+    border: 1px solid hsl(235, 18%, 26%) ;
+}
+.btntwo:hover{
+    background: linear-gradient(to right, #ff512f, hsl(4, 94%, 58%));
+    transition: 1.5s;
+    cursor: pointer;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+.card{
+    width: 72%;
+    height: 59em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.right-side{
+
+    width: 243px;
+    height: 30px;
+    position: relative;
+    top: -50rem;
+    margin: 1em;
+    margin-top: 2em;
+    
+}
+.btn{
+    margin-right: 1.8rem;
+    width: 14rem;
+
+}
+#address{
+    margin-bottom: -6rem;
+}
+#email{
+    width: 5rem;
+    margin-left: -39px;
+}
+.left-side{
+    margin-top: 11rem;
+    position: relative;
+    top: 13em;
+}
+.emailAdd{
+    position: absolute;
+    left: -2rem;
+}
+.imgone{
+    position: absolute;
+    top: 4rem;
+
+}
+.imgtwo{
+
+    position: absolute;
+    top: 154px;
+}
+.imgthree{
+    position: absolute;
+    top: 232px;
+}
+h1{
+    text-align: center;
+    padding: 2px;
+}
+}
+
+
+
+
+
+.card-two{
+    width: 27%;
+    height: 424px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 42px;
+}
+
+
+
+
+.screen{
+    display: block;
+}
+.anscreen{
+  display: none;
+    
+}
+
+
+.error{
+ background-color:  rgb(222 176 176);
+ border: 1px solid hsl(0, 93%, 49%);
+ transition: 0.5s;
+ color: #a14d3c;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
